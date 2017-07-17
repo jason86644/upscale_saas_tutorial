@@ -21,6 +21,7 @@ h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
 }
 
+// background color
 .navbar, .home-callout {
     //Gradient provided by @_ighosh at uigradients.com
     background: #6190E8;  /* fallback for old browsers */
@@ -32,26 +33,18 @@ h1, h2, h3 {
     border: none;
 }
 
-.navbar-default .navbar-brand {
-    color: white;
-}
-
+// navbar style
+.navbar-default .navbar-brand, 
 .navbar-default .navbar-nav > li > a {
     color: white;
+    &:hover {
+        color: white;
+        opacity: 0.75;
+    }
 }
 
 
-.navbar-default .navbar-nav > li > a:hover {
-    color: white;
-    opacity: 0.75;
-}
-
-.navbar-default .navbar-brand:hover {
-    color: white;
-    opacity: 0.75;
-}
-
-
+// home page spacing
 .home-callout {
     color: white;
     margin-top: -20px;
