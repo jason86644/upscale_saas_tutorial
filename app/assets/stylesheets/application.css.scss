@@ -36,6 +36,11 @@ h1, h2, h3 {
     border: none;
 }
 
+.navbar-brand {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+}
+
 // navbar style
 .navbar-default .navbar-brand, 
 .navbar-default .navbar-nav > li > a {
@@ -46,6 +51,18 @@ h1, h2, h3 {
     }
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+// navbar style when its small
+.navbar-default .navbar-toggle {
+    border: 2px solid white;
+    &:hover, &:focus {
+        background-color: #6190E8;
+
+    }        
+}
 
 // home page spacing
 .home-callout {
